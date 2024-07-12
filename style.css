@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0
+}
+.bio{
+    background-color:rgb(148, 142, 142);
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    gap: 100px;
+    padding: 30px 40px;
+    
+}
+.image img{
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    box-shadow:0px 3px 12px 0px rgb(36, 35, 35);
+
+}
+.name h1{
+    font-size: 50px;
+}
+.name button{
+    margin-top: 5%;
+    padding: 16px 45px;
+    background:rgb(83, 81, 81);
+    color:black;
+    font-size: 20pxpx;
+     font-weight: 800px;
+     border: 2px solid black;
+     transition: all ease .50s;
+     border-radius: 20px;
+}
+section{
+    padding: 120px 90px;
+}
+.para{
+    margin: 20px;
+
+}
+.para p{
+    font-size: 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
